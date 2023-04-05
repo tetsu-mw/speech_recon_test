@@ -13,10 +13,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        home: const SpeechScreen(),
-        debugShowCheckedModeBanner: false,
-        title: 'Speech To Text',
-        theme: ThemeData(primarySwatch: Colors.blue));
+    return const MaterialApp(
+      home: SpeechScreen(),
+      debugShowCheckedModeBanner: false,
+      title: 'Speech To Text',
+    );
   }
 }
