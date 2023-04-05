@@ -63,7 +63,7 @@ class _SpeechScreenState extends State<SpeechScreen> {
         backgroundColor: bgColor,
         leading: const Icon(Icons.sort_rounded, color: Colors.white),
         title: const Text(
-          'SPEAK UP',
+          'Speech to Text',
           style: TextStyle(fontWeight: FontWeight.w600, color: textColor),
         ),
       ),
